@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H A D E S</title>
+
+    <link rel="shortcut icon" href="img/hades.png">
+    <link rel="icon" href="img/hades.png">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="/index.html" class="logo">Hades</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Halo Internet<br>I'm  <span>H A D E S</span></h2>
+            <p>
+                Seorang pemuda yang lelah dengan apa kata dunia.
+                Pemuda dengan kelebihan <span style="color: #f45c6c;">baik</span> dan kekurangan <span style="color: #f45c6c;">terlalu baik</span>
+            </p>
+            <a href="/about.html"><p>Know More</p></a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.instagram.com/haniff.exe/"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="https://github.com/HanifMukkorrobin/"><i class="fab fa-git fa-2x"></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=6285647403902"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+            <li><a href="https://xkrido.github.io/"><img src="img/krido.svg"></a></li>
+            <li><a href="https://akbarpalwa.github.io"><img src="img/palwa.png"></a></li>
+        </ul>
+    </section>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/article.html">Article</a></li>
+            <li><a href="/about.html">About</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active')
+            nav.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
