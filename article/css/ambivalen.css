@@ -129,7 +129,7 @@ header #toggle::after {
     color: #f45c6c;
 }
 .content blockquote {
-    font-size: 2rem;
+    font-size: 1.5em;
     border-left: solid 4px white;
     font-style: italic;
     margin: 0 0 2rem 0;
@@ -170,8 +170,14 @@ header #toggle::after {
     .banner h2 {
         font-size: 1.8em;
     }
+    .banner h6 {
+        font-size: 1.2em;
+    }
     .banner .content p, .banner .content a {
         font-size: 1em;
+    }
+    .banner .content blockquote {
+        font-size: 1.2em;
     }
     .banner.active {
         transform: translateX(-250px);
