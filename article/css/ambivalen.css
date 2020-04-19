@@ -171,13 +171,13 @@ header #toggle::after {
         font-size: 1.8em;
     }
     .banner h6 {
-        font-size: 1.2em;
-    }
-    .banner .content p, .banner .content a {
         font-size: 1em;
     }
+    .banner .content p, .banner .content a {
+        font-size: 0.9em;
+    }
     .banner .content blockquote {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
     .banner.active {
         transform: translateX(-250px);
